@@ -1,4 +1,4 @@
-# HushFile 🤫📁
+# HushFile 
 
 > **Drop it in Downloads, forget it, find it later.**
 
@@ -66,7 +66,7 @@ Any file can be inspected with a Quick-Info card explaining *why* HushFile filed
 
 ### Installation Commands by Operating System
 
-#### 🪟 Windows (PowerShell or Command Prompt)
+####  Windows (PowerShell or Command Prompt)
 ```powershell
 # 1. Clone & enter repository
 git clone https://github.com/AntKss07/HushFile.git
@@ -83,7 +83,7 @@ python -m venv .venv
 pip install -e ".[audio,ui,dev]"
 ```
 
-#### 🍎 Apple macOS (Terminal / zsh / bash)
+####  Apple macOS (Terminal / zsh / bash)
 *(Works on Apple Silicon M1/M2/M3/M4 and Intel Macs)*
 ```bash
 # 1. Clone & enter repository
