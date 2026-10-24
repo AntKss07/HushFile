@@ -1,0 +1,39 @@
+watch_dir: ~/Downloads
+output_dir: ~/Organized
+mode: auto            # auto or dry_run
+confidence_threshold: 0.6
+stability_seconds: 3
+models:
+  text: qwen2.5:7b-instruct
+  vision: qwen2.5vl:3b
+  embed: nomic-embed-text
+  whisper: small
+  device: cuda        # cuda or cpu
+  keep_alive: 5m
+extract:
+  max_chars: 12000
+  audio_seconds: 300
+  ocr_languages: eng
+categories:
+  - Finance
+  - Education
+  - Identity
+  - Work
+  - Travel
+  - Health
+  - Receipts
+  - Screenshots
+  - Photos
+  - Voice Notes
+  - Recordings
+  - Code
+  - Archives
+  - Installers
+  - Media
+  - Misc
+ignore_extensions: [.crdownload, .part, .tmp, .download]
+rules:
+  - match: invoice
+    category: Finance
+  - match: receipt
+    category: Receipts
